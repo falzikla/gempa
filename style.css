@@ -1,0 +1,36 @@
+.konten {
+    display: flex;
+}
+
+.berita {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lokasi {
+    width: 300px;
+}
+
+.gambar {
+    justify-content: center;
+}
+
+.berita label {
+    line-height: 2.1;
+}
+
+.garis {
+    margin-bottom: 18px;
+}
+
+@media (max-width: 500px) {
+    .konten {
+        flex-direction: column;
+    }
+
+    #shakemap {
+        display: flex;
+        justify-content: center;
+    }
+}
